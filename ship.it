@@ -1,0 +1,3 @@
+npm run build
+cp -r build ../website/reading-list
+scp -r /Users/chris/Desktop/website/* s78lmtj8916t@chrisliambender.com:/home/s78lmtj8916t/public_html
