@@ -1,0 +1,60 @@
+{
+    "type": "topic",
+    "name": "Theory",
+    "children": [
+        {
+            "type": "topic",
+            "name": "Generalization",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Information Bottleneck",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Neural Tangent Kernel",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Robustness",
+            "children": [
+                {
+                    "type": "topic",
+                    "name": "Adversarial Robustness",
+                    "children": [
+                    ]
+                },
+                {
+                    "type": "topic",
+                    "name": "Non-Adversarial Robustness",
+                    "children": [
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Optimization",
+            "children": [
+                {
+                    "type": "topic",
+                    "name": "Optimizers",
+                    "children": [
+                    ]
+                },
+                {
+                    "type": "topic",
+                    "name": "Non-Optimizers",
+                    "children": [
+                    ]
+                }
+            ]
+        }
+    ]
+}

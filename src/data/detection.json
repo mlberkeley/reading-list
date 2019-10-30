@@ -1,0 +1,160 @@
+{
+    "type": "topic",
+    "name": "Object Detection and Segmentation",
+    "children": [
+        {
+            "type": "topic",
+            "name": "Shallow Stuff",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "Selective Search",
+                    "title": "Selective Search for Object Recognition",
+                    "authors": null,
+                    "link": "http://www.huppelen.nl/publications/selectiveSearchDraft.pdf",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "DPM",
+                    "title": "Object Detection with Discriminatively Trained Part Based Models",
+                    "authors": null,
+                    "link": "http://cs.brown.edu/people/pfelzens/papers/lsvm-pami.pdf",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "HOG",
+                    "title": "Histograms of Oriented Gradients for Human Detection",
+                    "authors": null,
+                    "link": "https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf",
+                    "relevance": 1
+                }
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "2D",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "R-CNN",
+                    "title": "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1311.2524",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Fast R-CNN",
+                    "title": "Fast R-CNN",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1504.08083",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Faster R-CNN",
+                    "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1506.01497",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Mask R-CNN",
+                    "title": "Mask R-CNN",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1703.06870",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Yolo",
+                    "title": "You Only Look Once: Unified, Real-Time Object Detection",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1506.02640",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "SSD",
+                    "title": "SSD: Single Shot MultiBox Detector",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1512.02325",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Fast Yolo",
+                    "title": "Fast YOLO: A Fast You Only Look Once System for Real-time Embedded Object Detection in Video",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1709.05943",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "U-Net",
+                    "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1505.04597",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "DeepLab-v3",
+                    "title": "Rethinking Atrous Convolution for Semantic Image Segmentation",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1706.05587",
+                    "relevance": 2
+                }
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "3D",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "PointNet",
+                    "title": "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1612.00593",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Mesh R-CNN",
+                    "title": "Mesh R-CNN",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1906.02739",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "PointNet++",
+                    "title": "PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1706.02413",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Frustum PointNet",
+                    "title": "Frustum PointNets for 3D Object Detection from RGB-D Data",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1711.08488",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "VoxelNet",
+                    "title": "VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1711.06396",
+                    "relevance": 2
+                }
+            ]
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Paper, Topic, allTopics } from './Topics.js';
+import { allTopics } from './Topics.js';
 import { LoremIpsum } from 'react-lorem-ipsum';
 
 class Index extends React.Component {
@@ -25,7 +25,7 @@ class Index extends React.Component {
             if (depth == 0) {
                 topicName = <b>{topicName}</b>;
             }
-            if (!(topic && topic.children[0] instanceof Paper)) {
+            if (topic.hasOwnProperty('children')) {
                 topicName = (
                     <>
                         {topicName}
@@ -35,8 +35,8 @@ class Index extends React.Component {
                         </ul>
                     </>
                 );
+                topicNames.push(topicName);
             }
-            topicNames.push(topicName);
 
         }
 
@@ -122,9 +122,11 @@ class Content extends React.Component {
         for (let i = 0; i < children.length; i++) {
 
             let child = children[i];
-            if (child instanceof Paper) {
+            console.log(child);
+            if (child.type === 'paper') {
+                console.log("Processing " + child.name);
                 processed.push(this.processSinglePaper(child));
-            } else if (child instanceof Topic) {
+            } else if (child.type === 'topic') {
                 processed.push(
                     <>
                         <li>

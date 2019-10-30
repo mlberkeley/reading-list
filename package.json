@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://www.chrisliambender.com/reading-list",
   "dependencies": {
+    "json": "^9.0.6",
+    "json-loader": "^0.5.7",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-lorem-ipsum": "^1.4.4",

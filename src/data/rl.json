@@ -1,0 +1,66 @@
+{
+    "type": "topic",
+    "name": "Reinforcement Learning",
+    "children": [
+        {
+            "type": "topic",
+            "name": "Q Learning",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Policy Gradients",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Model Based RL",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Meta RL",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Goal Conditioned RL",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Off-Policy RL",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Inverse RL / Reward Learning",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Imitation Learning",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Exploration",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Self-Play",
+            "children": [
+            ]
+        }
+    ]
+}

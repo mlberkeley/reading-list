@@ -1,0 +1,42 @@
+{
+    "type": "topic",
+    "name": "Systems for ML",
+    "children": [
+        {
+            "type": "topic",
+            "name": "Small Models",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Quantization",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Model Serving",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Graph Compilation",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Distributed Training",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Training with Low Memory",
+            "children": [
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "topic",
+    "name": "Unsupervised Learning",
+    "children": [
+        {
+            "type": "topic",
+            "name": "Generative Adversarial Networks",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Style Transfer and Colorization",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Autoregressive Models",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Normalizing Flows",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Variational Autoencoders",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Other Representation Learning",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Metrics",
+            "children": [
+            ]
+        }
+    ]
+}

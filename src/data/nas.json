@@ -1,0 +1,48 @@
+{
+    "type": "topic",
+    "name": "Neural Architecture Search",
+    "children": [
+        {
+            "type": "topic",
+            "name": "Random Search",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "RL Based",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Hierarchial",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Differentiable",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Evolutionary",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Weight Tying",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Other Architecture Search",
+            "children": [
+            ]
+        }
+    ]
+}

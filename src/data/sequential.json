@@ -1,0 +1,30 @@
+{
+    "type": "topic",
+    "name": "Sequential / NLP",
+    "children": [
+        {
+            "type": "topic",
+            "name": "Sequential Models",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Word Vectors",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Unsupervised",
+            "children": [
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Attention",
+            "children": [
+            ]
+        }
+    ]
+}
