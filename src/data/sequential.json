@@ -6,24 +6,136 @@
             "type": "topic",
             "name": "Sequential Models",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "Search Space Odyssey",
+                    "title": "LSTM: A Search Space Odyssey",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1503.04069",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "GRU",
+                    "title": "",
+                    "authors": null,
+                    "link": "",
+                    "relevance": 1
+                }
             ]
         },
         {
             "type": "topic",
             "name": "Word Vectors",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "Word2Vec",
+                    "title": "Efficient Estimation of Word Representations in Vector Space",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1301.3781",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "GloVe",
+                    "title": "GloVe: Global Vectors for Word Representation",
+                    "authors": null,
+                    "link": "https://nlp.stanford.edu/pubs/glove.pdf",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Poincare GloVe",
+                    "title": "Poincaré GloVe: Hyperbolic Word Embeddings",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1810.06546",
+                    "relevance": 1
+                }
             ]
         },
         {
             "type": "topic",
             "name": "Unsupervised",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "BERT",
+                    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1810.04805",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "GPT",
+                    "title": "Improving Language Understanding by Generative Pre-Training",
+                    "authors": null,
+                    "link": "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "GPT-2",
+                    "title": "Language Models are Unsupervised Multitask Learners",
+                    "authors": null,
+                    "link": "https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "XLNet",
+                    "title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1906.08237",
+                    "relevance": 2
+                }
             ]
         },
         {
             "type": "topic",
             "name": "Attention",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "Align & Translate",
+                    "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1409.0473",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "ByteNet",
+                    "title": "Neural Machine Translation in Linear Time",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1610.10099",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Transformer",
+                    "title": "Attention is All You Need",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1706.03762",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Transformer-XL",
+                    "title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1901.02860",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Reformer",
+                    "title": "The Reformer: The Efficient Transformer",
+                    "authors": null,
+                    "link": "https://openreview.net/forum?id=rkgNKkHtvB",
+                    "relevance": 1
+                }
             ]
         }
     ]

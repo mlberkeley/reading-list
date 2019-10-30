@@ -6,42 +6,132 @@
             "type": "topic",
             "name": "Random Search",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "Random Search",
+                    "title": "Random Search and Reproducibility for Neural Architecture Search",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1902.07638",
+                    "relevance": 1
+                }
             ]
         },
         {
             "type": "topic",
             "name": "RL Based",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "NAS with RL",
+                    "title": "Neural Architecture Search with Reinforcement Learning",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1611.01578",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Optimizer Search",
+                    "title": "Neural Optimizer Search with Reinforcement Learning",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1709.07417",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "ENAS",
+                    "title": "Efficient Neural Architecture Search via Parameter Sharing",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1802.03268",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "NASNet",
+                    "title": "Learning Transferable Architectures for Scalable Image Recognition",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1707.07012",
+                    "relevance": 1
+                }
             ]
         },
         {
             "type": "topic",
             "name": "Hierarchial",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "Hierarchical Representations",
+                    "title": "Hierarchical Representations for Efficient Architecture Search",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1711.00436",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "PNAS",
+                    "title": "Progressive Neural Architecture Search",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1712.00559",
+                    "relevance": 1
+                }
             ]
         },
         {
             "type": "topic",
             "name": "Differentiable",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "DARTS",
+                    "title": "DARTS: Differentiable Architecture Search",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1806.09055",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "DARTS+",
+                    "title": "Improved Differentiable Architecture Search with Early Stopping",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1909.06035",
+                    "relevance": 1
+                }
             ]
         },
         {
             "type": "topic",
             "name": "Evolutionary",
             "children": [
-            ]
-        },
-        {
-            "type": "topic",
-            "name": "Weight Tying",
-            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "AmoebaNet",
+                    "title": "Regularized Evolution for Image Classifier Architecture Search",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1802.01548",
+                    "relevance": 1
+                }
             ]
         },
         {
             "type": "topic",
             "name": "Other Architecture Search",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "Weight Sharing",
+                    "title": "Understanding and Simplifying One-Shot Architecture Search",
+                    "authors": null,
+                    "link": "http://proceedings.mlr.press/v80/bender18a/bender18a.pdf",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "MorphNet",
+                    "title": "MorphNet: Fast & Simple Resource-Constrained Structure Learning of Deep Networks",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1711.06798",
+                    "relevance": 1
+                }
             ]
         }
     ]

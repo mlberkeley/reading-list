@@ -6,6 +6,38 @@
             "type": "topic",
             "name": "Generalization",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "Rethinking Generalization",
+                    "title": "Understanding Deep Learning Requires Rethinking Generalization",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1611.03530",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Large-Batch Training",
+                    "title": "On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1609.04836",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Sharp Minima",
+                    "title": "Sharp Minima Can Generalize for Deep Nets",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1703.04933",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "PFM",
+                    "title": "Deep Learning Generalizes Because the Parameter-Function Map is Biased Towards Simple Functions",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1805.08522",
+                    "relevance": 3
+                }
             ]
         },
         {
@@ -28,12 +60,116 @@
                     "type": "topic",
                     "name": "Adversarial Robustness",
                     "children": [
+                        {
+                            "type": "paper",
+                            "flavor": "",
+                            "title": "Towards Evaluating the Robustness of Neural Networks",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1608.04644",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "",
+                            "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1706.06083",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "",
+                            "title": "Robustness May Be At Odds With Accuracy",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1805.12152",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "",
+                            "title": "Adversarially Robust Generalization Requires More Data",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1804.11285",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "",
+                            "title": "Adversarial Examples Are Not Bugs, They Are Features",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1905.02175",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "",
+                            "title": "Certified Adversarial Robustness via Randomized Smoothing",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1902.02918",
+                            "relevance": 1
+                        }
                     ]
                 },
                 {
                     "type": "topic",
                     "name": "Non-Adversarial Robustness",
                     "children": [
+                        {
+                            "type": "paper",
+                            "flavor": "",
+                            "title": "Generalisation in Humans and Deep Neural Networks",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1808.08750",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "",
+                            "title": "Benchmarking Neural Network Robustness to Common Corruptions and Surface Variations",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1807.01697",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "Texture Bias",
+                            "title": "ImageNet-Trained Cnns Are Biased Towards Texture; Increasing Shape Bias Improves Accuracy and Robustness ",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1811.12231",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "",
+                            "title": "Do ImageNet Classifiers Generalize to ImageNet?",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1902.10811",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "When Robustness Doesn't Promote Robustness",
+                            "title": "When Robustness Doesn’t Promote Robustness: Synthetic vs. Natural Distribution Shifts on ImageNet",
+                            "authors": null,
+                            "link": "https://openreview.net/forum?id=HyxPIyrFvH",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "",
+                            "title": "Should Adversarial Attacks Use Pixel p-Norm?",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1906.02439",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "",
+                            "title": "Transfer of Adversarial Robustness Between Perturbation Types",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1905.01034",
+                            "relevance": 1
+                        }
                     ]
                 }
             ]
@@ -46,12 +182,108 @@
                     "type": "topic",
                     "name": "Optimizers",
                     "children": [
+                        {
+                            "type": "paper",
+                            "flavor": "Adagrad",
+                            "title": "Adaptive Subgradient Methods for Online Learning and Stochastic Optimization",
+                            "authors": null,
+                            "link": "http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "Adadelta",
+                            "title": "ADADELTA: An Adaptive Learning Rate Method",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1212.5701",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "Adam",
+                            "title": "Adam: A Method for Stochastic Optimization",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1412.6980",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "RMSProp",
+                            "title": "RMSProp Slides",
+                            "authors": null,
+                            "link": "https://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "Lookahead",
+                            "title": "Lookahead Optimizer: k Steps Forward, 1 Step Back",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1907.08610",
+                            "relevance": 1
+                        }
                     ]
                 },
                 {
                     "type": "topic",
                     "name": "Non-Optimizers",
                     "children": [
+                        {
+                            "type": "paper",
+                            "flavor": "One Neuron",
+                            "title": "Adding One Neuron Can Eliminate All Bad Local Minima",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1805.08671",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "Goldilocks Zone",
+                            "title": "The Goldilocks Zone: Towards Better Understanding of Neural Network Loss Landscapes",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1807.02581",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "The Lottery Ticket Hypothesis",
+                            "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1803.03635",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "",
+                            "title": "Visualizing the Loss Landscape of Neural Nets",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1712.09913",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "",
+                            "title": "Qualitatively Characterizing Neural Network Optimization Problems",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1412.6544",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "Large-Batch Training",
+                            "title": "An Empirical Model of Large-Batch Training",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1812.06162",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
+                            "flavor": "",
+                            "title": "On The Marginal Value of Adaptive Gradient Methods in Machine Learning",
+                            "authors": null,
+                            "link": "https://arxiv.org/abs/1705.08292",
+                            "relevance": 1
+                        }
                     ]
                 }
             ]

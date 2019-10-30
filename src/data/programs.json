@@ -2,5 +2,61 @@
     "type": "topic",
     "name": "Program Synthesis",
     "children": [
+        {
+            "type": "paper",
+            "flavor": "NTM",
+            "title": "Neural Turing Machines",
+            "authors": null,
+            "link": "https://arxiv.org/abs/1410.5401",
+            "relevance": 3
+        },
+        {
+            "type": "paper",
+            "flavor": "Neural RAM",
+            "title": "Neural Random Access Machines",
+            "authors": null,
+            "link": "https://arxiv.org/abs/1511.06392",
+            "relevance": 1
+        },
+        {
+            "type": "paper",
+            "flavor": "Neural GPU",
+            "title": "Neural GPUs Learn Algorithms",
+            "authors": null,
+            "link": "https://arxiv.org/abs/1511.08228",
+            "relevance": 2
+        },
+        {
+            "type": "paper",
+            "flavor": "RobustFill",
+            "title": "RobustFill: Neural Program Learning under Noisy I/O",
+            "authors": null,
+            "link": "https://arxiv.org/abs/1703.07469",
+            "relevance": 3
+        },
+        {
+            "type": "paper",
+            "flavor": "LGRL",
+            "title": "Leveraging Grammar and Reinforcement Learning for Neural Program Synthesis",
+            "authors": null,
+            "link": "https://arxiv.org/abs/1805.04276",
+            "relevance": 2
+        },
+        {
+            "type": "paper",
+            "flavor": "SPIRAL",
+            "title": "Synthesizing Programs for Images using Reinforced Adversarial Learning",
+            "authors": null,
+            "link": "https://arxiv.org/abs/1804.01118",
+            "relevance": 2
+        },
+        {
+            "type": "paper",
+            "flavor": "Bayesian Program Learning",
+            "title": "Human-Level Concept Learning through Probabilistic Program Induction",
+            "authors": null,
+            "link": "https://web.mit.edu/cocosci/Papers/Science-2015-Lake-1332-8.pdf",
+            "relevance": 3
+        }
     ]
 }

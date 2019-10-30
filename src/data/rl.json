@@ -6,60 +6,300 @@
             "type": "topic",
             "name": "Q Learning",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "DQN",
+                    "title": "Playing Atari With Deep Reinforcement Learning",
+                    "authors": null,
+                    "link": "https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "DDPG",
+                    "title": "Continuous Control with Deep Reinforcement Learning",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1509.02971",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "TD3",
+                    "title": "Addressing Function Approximation Error in Actor-Critic Methods",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1802.09477",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "SAC",
+                    "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1801.01290",
+                    "relevance": 1
+                }
             ]
         },
         {
             "type": "topic",
             "name": "Policy Gradients",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "REINFORCE",
+                    "title": "Simple Statistical Gradient-following Algorithms for Connectionist Reinforcement Learning",
+                    "authors": null,
+                    "link": "http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "TRPO",
+                    "title": "Trust Region Policy Optimization",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1502.05477",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "PPO",
+                    "title": "Proximal Policy Optimization Algorithms",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1707.06347",
+                    "relevance": 1
+                }
             ]
         },
         {
             "type": "topic",
             "name": "Model Based RL",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "Dyna",
+                    "title": "",
+                    "authors": null,
+                    "link": "",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "GPS",
+                    "title": "Guided Policy Search",
+                    "authors": null,
+                    "link": "https://graphics.stanford.edu/projects/gpspaper/gps_full.pdf",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "MBPO",
+                    "title": "When to Trust Your Model: Model-Based Policy Optimization",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1906.08253",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "DSAE",
+                    "title": "Deep Spatial Autoencoders for Visuomotor Learning",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1509.06113",
+                    "relevance": 1
+                }
             ]
         },
         {
             "type": "topic",
             "name": "Meta RL",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "MAML",
+                    "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1703.03400",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "PEARL",
+                    "title": "Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1903.08254",
+                    "relevance": 1
+                }
             ]
         },
         {
             "type": "topic",
             "name": "Goal Conditioned RL",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "HER",
+                    "title": "Hindsight Experience Replay",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1707.01495",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "GCVF",
+                    "title": "",
+                    "authors": null,
+                    "link": "",
+                    "relevance": 1
+                }
             ]
         },
         {
             "type": "topic",
             "name": "Off-Policy RL",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "BEAR",
+                    "title": "Stabilizing Off-Policy Q-Learning via Bootstrapping Error Reduction",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1906.00949",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "BCQ",
+                    "title": "Off-Policy Deep Reinforcement Learning without Exploration",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1812.02900",
+                    "relevance": 1
+                }
             ]
         },
         {
             "type": "topic",
             "name": "Inverse RL / Reward Learning",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "GAIL",
+                    "title": "Generative Adversarial Imitation Learning",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1606.03476",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "VICE",
+                    "title": "Variational Inverse Control with Events: A General Framework for Data-Driven Reward Definition",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1805.11686",
+                    "relevance": 1
+                }
             ]
         },
         {
             "type": "topic",
             "name": "Imitation Learning",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "Behavioral Cloning",
+                    "title": "",
+                    "authors": null,
+                    "link": "",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "DAgger",
+                    "title": "A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning",
+                    "authors": null,
+                    "link": "https://www.cs.cmu.edu/~sross1/publications/Ross-AIStats11-NoRegret.pdf",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "MIL",
+                    "title": "One-Shot Visual Imitation Learning via Meta-Learning",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1709.04905",
+                    "relevance": 1
+                }
             ]
         },
         {
             "type": "topic",
             "name": "Exploration",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "Curiosity",
+                    "title": "Curiosity-driven Exploration by Self-supervised Prediction",
+                    "authors": null,
+                    "link": "https://pathak22.github.io/noreward-rl/resources/icml17.pdf",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Count-Based Exploration",
+                    "title": "Unifying Count-Based Exploration and Intrinsic Motivation",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1606.01868",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "GoalGAN",
+                    "title": "Automatic Goal Generation for Reinforcement Learning Agents",
+                    "authors": null,
+                    "link": "https://arxiv.org/pdf/1705.06366.pdf",
+                    "relevance": 1
+                }
             ]
         },
         {
             "type": "topic",
             "name": "Self-Play",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "AlphaGo",
+                    "title": "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+                    "authors": null,
+                    "link": "https://www.nature.com/articles/nature16961",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "AlphaZero",
+                    "title": "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1712.01815",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Asymmetric Self-Play",
+                    "title": "Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1703.05407",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Multi-Agent Competition",
+                    "title": "Emergent Complexity via Multi-Agent Competition",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1710.03748",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "OpenAI Hide-and-Seek",
+                    "title": "Emergent Tool Use From Multi-Agent Autocurricula",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1909.07528",
+                    "relevance": 1
+                }
             ]
         }
     ]
