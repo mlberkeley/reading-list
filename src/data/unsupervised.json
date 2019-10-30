@@ -2,47 +2,499 @@
     "type": "topic",
     "name": "Unsupervised Learning",
     "children": [
-        {
-            "type": "topic",
-            "name": "Generative Adversarial Networks",
-            "children": [
-            ]
-        },
-        {
-            "type": "topic",
-            "name": "Style Transfer and Colorization",
-            "children": [
-            ]
-        },
-        {
-            "type": "topic",
-            "name": "Autoregressive Models",
-            "children": [
-            ]
-        },
-        {
-            "type": "topic",
-            "name": "Normalizing Flows",
-            "children": [
-            ]
-        },
-        {
-            "type": "topic",
-            "name": "Variational Autoencoders",
-            "children": [
-            ]
-        },
-        {
-            "type": "topic",
-            "name": "Other Representation Learning",
-            "children": [
-            ]
-        },
-        {
-            "type": "topic",
-            "name": "Metrics",
-            "children": [
-            ]
-        }
-    ]
+		{"type": "topic",
+		"name": "Generative Adversarial Networks",
+		"children": [
+                {
+                    "type": "paper",
+                    "flavor": "GAN",
+                    "title": "Generative Adversarial Networks.",
+                    "authors": ["Ian J. Goodfellow", "Jean Pouget-Abadie", "Mehdi Mirza", "Bing Xu", "David Warde-Farley", "Sherjil Ozair", "Aaron Courville", "Yoshua Bengio"],
+                    "link": "https://arxiv.org/abs/1406.2661",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "DCGAN",
+                    "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
+                    "authors": ["Alec Radford", "Luke Metz", "Soumith Chintala"],
+                    "link": "https://arxiv.org/abs/1511.06434",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "InfoGAN",
+                    "title": "InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets",
+                    "authors": ["Xi Chen", "Yan Duan", "Rein Houthooft", "John Schulman", "Ilya Sutskever", "Pieter Abbeel"],
+                    "link": "https://arxiv.org/abs/1606.03657",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Improved GAN",
+                    "title": "Improved Techniques for Training GANs",
+                    "authors": ["Tim Salimans", "Ian Goodfellow", "Wojciech Zaremba", "Vicki Cheung", "Alec Radford", "Xi Chen"],
+                    "link": "https://arxiv.org/abs/1606.03498",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "",
+                    "authors": [""],
+                    "link": "",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "WGAN",
+                    "title": "Wasserstein GAN",
+                    "authors": ["Martin Arjovsky", "Soumith Chintala", "Léon Bottou"],
+                    "link": "https://arxiv.org/abs/1701.07875",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "WGAN-GP",
+                    "title": "Improved Training of Wasserstein GANs",
+                    "authors": ["Ishaan Gulrajani", "Faruk Ahmed", "Martin Arjovsky", "Vincent Dumoulin", "Aaron Courville"],
+                    "link": "https://arxiv.org/abs/1704.00028",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "MMD GAN",
+                    "title": "MMD GAN: Towards Deeper Understanding of Moment Matching Network",
+                    "authors": ["Chun-Liang Li", "Wei-Cheng Chang", "Yu Cheng", "Yiming Yang", "Barnabás Póczos"],
+                    "link": "https://arxiv.org/abs/1705.08584",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "PG-GAN",
+                    "title": "A Style-Based Generator Architecture for Generative Adversarial Networks",
+                    "authors": ["Tero Karras", "Samuli Laine", "Timo Aila"],
+                    "link": "https://arxiv.org/abs/1812.04948",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "SA-GAN",
+                    "title": "Self-Attention Generative Adversarial Networks",
+                    "authors": ["Han Zhang", "Ian Goodfellow", "Dimitris Metaxas", "Augustus Odena"],
+                    "link": "https://arxiv.org/abs/1805.08318",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "SN-GAN",
+                    "title": "Spectral Normalization for Generative Adversarial Networks",
+                    "authors": ["Takeru Miyato", "Toshiki Kataoka", "Masanori Koyama", "Yuichi Yoshida"],
+                    "link": "https://openreview.net/pdf?id=B1QRgziT-",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "BigGAN",
+                    "title": "Large Scale GAN Training for High Fidelity Natural Image Synthesis",
+                    "authors": ["Andrew Brock", "Jeff Donahue", "Karen Simonyan"],
+                    "link": "https://arxiv.org/abs/1809.11096",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "S3GAN",
+                    "title": "High-Fidelity Image Generation With Fewer Labels",
+                    "authors": ["Mario Lucic", "Michael Tschannen", "Marvin Ritter", "Xiaohua Zhai", "Olivier Bachem", "Sylvain Gelly"],
+                    "link": "https://arxiv.org/abs/1903.02271",
+                    "relevance": 2
+                }
+		]
+		},
+		{
+		  "type": "topic",
+		  "name": "Style Transfer and Colorization",
+		  "children": [
+                {
+                    "type": "paper",
+                    "flavor": "pix2pix",
+                    "title": "Image-to-Image Translation with Conditional Adversarial Networks",
+                    "authors": ["Phillip Isola", "Jun-Yan Zhu", "Tinghui Zhou", "Alexei A. Efros"],
+                    "link": "https://arxiv.org/abs/1611.07004",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "CycleGAN",
+                    "title": "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks",
+                    "authors": ["Jun-Yan Zhu", "Taesung Park", "Phillip Isola", "Alexei A. Efros"],
+                    "link": "https://arxiv.org/abs/1703.10593",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Attention-Guided CycleGAN",
+                    "title": "Unsupervised Attention-Guided Image to Image Translation.",
+                    "authors": ["Youssef A. Mejjati", "Christian Richardt", "James Tompkin", "Darren Cosker", "Kwang In Kim"],
+                    "link": "https://arxiv.org/abs/1806.02311",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "vid2vid",
+                    "title": "Video-to-Video Synthesis",
+                    "authors": ["Ting-Chun Wang", "Ming-Yu Liu", "Jun-Yan Zhu", "Guilin Liu", "Andrew Tao", "Jan Kautz", "Bryan Catanzaro"],
+                    "link": "https://arxiv.org/abs/1808.06601",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Everybody Dance Now",
+                    "title": "Everybody Dance Now",
+                    "authors": ["Caroline Chan", "Shiry Ginosar", "Tinghui Zhou", "Alexei A. Efros"],
+                    "link": "https://arxiv.org/abs/1808.07371",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Style Transfer",
+                    "title": "Image Style Transfer Using Convolutional Neural Networks",
+                    "authors": ["Leon A. Gatys", "Alexander S. Ecker", "Matthias Bethge"],
+                    "link": "https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Fast Style Transfer",
+                    "title": "Perceptual Losses for Real-Time Style Transfer and Super-Resolution",
+                    "authors": ["Justin Johnson", "Alexandre Alahi", "Li Fei-Fei"],
+                    "link": "https://arxiv.org/abs/1603.08155",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Image Colorization",
+                    "title": "Colorful Image Colorization",
+                    "authors": ["Richard Zhang", "Phillip Isola", "Alexei A. Efros"],
+                    "link": "https://arxiv.org/abs/1603.08511",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Tracking Emerges",
+                    "title": "Tracking Emerges by Colorizing Videos",
+                    "authors": ["Carl Vondrick", "Abhinav Shrivastava", "Alireza Fathi", "Sergio Guadarrama", "Kevin Murphy"],
+                    "link": "",
+                    "relevance": 2
+                }
+		]
+		},
+		{
+		  "type": "topic",
+		  "name": "Autoregressive Models",
+		  "children": [
+                {
+                    "type": "paper",
+                    "flavor": "MADE",
+                    "title": "MADE: Masked Autoencoder for Distribution Estimation",
+                    "authors": ["Mathieu Germain", "Karol Gregor", "Iain Murray", "Hugo Larochelle"],
+                    "link": "https://arxiv.org/abs/1502.03509",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Pixel Recurrent Neural Networks",
+                    "authors": ["Aaron van den Oord", "Nal Kalchbrenner", "Koray Kavukcuoglu"],
+                    "link": "https://arxiv.org/abs/1601.06759",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "PixelCNN",
+                    "title": "Conditional Image Generation with PixelCNN Decoders",
+                    "authors": ["Aaron van den Oord", "Nal Kalchbrenner", "Oriol Vinyals", "Lasse Espeholt", "Alex Graves", "Koray Kavukcuoglu"],
+                    "link": "https://arxiv.org/abs/1606.05328",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "PixelCNN++",
+                    "title": "PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications",
+                    "authors": ["Tim Salimans", "Andrej Karpathy", "Xi Chen", "Diederik P. Kingma"],
+                    "link": "https://arxiv.org/abs/1701.05517",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "PixelSNAIL",
+                    "title": "PixelSNAIL: An Improved Autoregressive Generative Model",
+                    "authors": ["Xi Chen", "Nikhil Mishra", "Mostafa Rohaninejad", "Pieter Abbeel"],
+                    "link": "https://arxiv.org/abs/1712.09763",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "WaveNet",
+                    "title": "WaveNet: A Generative Model for Raw Audio",
+                    "authors": ["Aaron van den Oord", "Sander Dieleman", "Heiga Zen", "Karen Simonyan", "Oriol Vinyals", "Alex Graves", "Nal Kalchbrenner", "Andrew Senior", "Koray Kavukcuoglu"],
+                    "link": "https://arxiv.org/abs/1609.03499",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "WaveRNN",
+                    "title": "Efficient Neural Audio Synthesis",
+                    "authors": ["Nal Kalchbrenner", "Erich Elsen", "Karen Simonyan", "Seb Noury", "Norman Casagrande", "Edward Lockhart", "Florian Stimberg", "Aaron van den Oord", "Sander Dieleman", "Koray Kavukcuoglu"],
+                    "link": "https://arxiv.org/abs/1802.08435",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "SPN",
+                    "title": "Generating High Fidelity Images with Subscale Pixel Networks and Multidimensional Upscaling",
+                    "authors": ["Jacob Menick", "Nal Kalchbrenner"],
+                    "link": "https://arxiv.org/abs/1812.01608",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Image Transformer",
+                    "title": "Generating High Fidelity Images with Subscale Pixel Networks and Multidimensional Upscaling",
+                    "authors": ["Niki Parmar", "Ashish Vaswani", "Jakob Uszkoreit", "Łukasz Kaiser", "Noam Shazeer", "Alexander Ku", "Dustin Tran"],
+                    "link": "https://arxiv.org/abs/1802.05751",
+                    "relevance": 2
+                }
+		  ]},
+		  {
+			"type": "topic",
+			"name": "Normalizing Flows",
+			"children": [
+                {
+                    "type": "paper",
+                    "flavor": "NICE",
+                    "title": "NICE: Non-linear Independent Components Estimation",
+                    "authors": ["Laurent Dinh", "David Krueger", "Yoshua Bengio"],
+                    "link": "https://arxiv.org/abs/1410.8516",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Real NVP",
+                    "title": "Density Estimation Using Real NVP",
+                    "authors": ["Laurent Dinh", "Jascha Sohl-Dickstein", "Samy Bengio"],
+                    "link": "https://arxiv.org/abs/1605.08803",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Glow",
+                    "title": "Glow: Generative Flow with Invertible 1x1 Convolutions",
+                    "authors": ["Diederik P. Kingma", "Prafulla Dhariwal"],
+                    "link": "https://arxiv.org/abs/1807.03039",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "WaveGlow",
+                    "title": "WaveGlow: A Flow-based Generative Network for Speech Synthesis",
+                    "authors": ["Ryan Prenger", "Rafael Valle", "Bryan Catanzaro"],
+                    "link": "https://arxiv.org/abs/1811.00002",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Flow++",
+                    "title": "Flow++: Improving Flow-Based Generative Models with Variational Dequantization and Architecture Design",
+                    "authors": ["Jonathan Ho", "Xi Chen", "Aravind Srinivas", "Yan Duan", "Pieter Abbeel"],
+                    "link": "https://arxiv.org/abs/1902.00275",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Parallel WaveNet",
+                    "title": "Parallel WaveNet: Fast High-Fidelity Speech Synthesis",
+                    "authors": ["Aaron van den Oord", "Yazhe Li", "Igor Babuschkin", "Karen Simonyan", "Oriol Vinyals", "Koray Kavukcuoglu", "George van den Driessche", "Edward Lockhart", "Luis C. Cobo", "Florian Stimberg", "Norman Casagrande", "Dominik Grewe", "Seb Noury", "Sander Dieleman", "Erich Elsen", "Nal Kalchbrenner", "Heiga Zen", "Alex Graves", "Helen King", "Tom Walters", "Dan Belov", "Demis Hassabis"],
+                    "link": "https://arxiv.org/abs/1711.10433",
+                    "relevance": 2
+                }
+			]},
+		  {
+			"type": "topic",
+			"name": "Variational AutoEncoders",
+			"children": [
+                {
+                    "type": "paper",
+                    "flavor": "VAE Tutorial",
+                    "title": "Tutorial on Variational Autoencoders",
+                    "authors": ["Carl Doersch"],
+                    "link": "https://arxiv.org/abs/1606.05908",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "beta-VAE",
+                    "title": "beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework",
+                    "authors": ["Irina Higgins", "Loic Matthey", "Arka Pal", "Christopher Burgess", "Xavier Glorot", "Matthew Botvinick", "Shakir Mohamed", "Alexander Lerchner"],
+                    "link": "https://openreview.net/forum?id=Sy2fzU9gl",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "VQ-VAE",
+                    "title": "Neural Discrete Representation Learning",
+                    "authors": ["Aaron van den Oord", "Oriol Vinyals", "Koray Kavukcuoglu"],
+                    "link": "https://arxiv.org/abs/1711.00937",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "VQ-VAE-2",
+                    "title": "Generating Diverse High-Fidelity Images with VQ-VAE-2",
+                    "authors": ["Ali Razavi", "Aaron van den Oord", "Oriol Vinyals"],
+                    "link": "https://arxiv.org/abs/1906.00446",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Variational Inference with Flows",
+                    "title": "Variational Inference with Normalizing Flows",
+                    "authors": ["Danilo Jimenez Rezende", "Shakir Mohamed"],
+                    "link": "https://arxiv.org/abs/1505.05770",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "IAF",
+                    "title": "Improving Variational Inference with Inverse Autoregressive Flow",
+                    "authors": ["Diederik P. Kingma", "Tim Salimans", "Rafal Jozefowicz", "Xi Chen", "Ilya Sutskever", "Max Welling"],
+                    "link": "https://arxiv.org/abs/1606.04934",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Variational Lossy Autoencoder",
+                    "title": "Variational Lossy Autoencoder",
+                    "authors": ["Xi Chen", "Diederik P. Kingma", "Tim Salimans", "Yan Duan", "Prafulla Dhariwal", "John Schulman", "Ilya Sutskever", "Pieter Abbeel"],
+                    "link": "https://arxiv.org/abs/1611.02731",
+                    "relevance": 1
+                }
+		  ]},
+		
+		  {
+			"type": "topic",
+			"name": "Other Representation Learning",
+			"children": [
+                {
+                    "type": "paper",
+                    "flavor": "SDAE",
+                    "title": "Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion",
+                    "authors": ["Pascal Vincent", "Hugo Larochelle", "Isabelle Lojoie", "Yoshua Bengio", "Pierre-Antoine Manzagol"],
+                    "link": "http://www.jmlr.org/papers/volume11/vincent10a/vincent10a.pdf",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Revisiting Self-Sup Learning",
+                    "title": "Revisiting Self-Supervised Visual Representation Learning",
+                    "authors": ["Alexander Kolesnikov", "Xiaohua Zhai", "Lucas Beyer"],
+                    "link": "https://arxiv.org/abs/1901.09005",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Puzzle",
+                    "title": "Unsupervised Visual Representation Learning by Context Prediction",
+                    "authors": ["Carl Doersch", "Abhinav Gupta", "Alexei A. Efros"],
+                    "link": "https://arxiv.org/abs/1505.05192",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "RotNet",
+                    "title": "Unsupervised Representation Learning by Predicting Image Rotations",
+                    "authors": ["Spyros Gidaris", "Praveer Singh", "Nikos Komodakis"],
+                    "link": "https://arxiv.org/abs/1803.07728",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "CPC",
+                    "title": "Representation Learning with Contrastive Predictive Coding",
+                    "authors": ["Aaron van den Oord", "Yazhe Li", "Oriol Vinyals"],
+                    "link": "https://arxiv.org/abs/1807.03748",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Imagenet Transfer",
+                    "title": "Do Better ImageNet Models Transfer Better?",
+                    "authors": ["Simon Kornblith", "Jonathon Shlens", "Quoc V. Le"],
+                    "link": "https://arxiv.org/abs/1805.08974",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Instagram Models",
+                    "title": "Exploring the Limits of Weakly Supervised Pretraining",
+                    "authors": ["Dhruv Mahajan", "Ross Girshick", "Vignesh Ramanathan", "Kaiming He", "Manohar Paluri", "Yixuan Li", "Ashwin Bharambe", "Laurens van der Maaten"],
+                    "link": "https://arxiv.org/abs/1805.00932",
+                    "relevance": 1
+                }
+			]},
+		  {
+			"type": "topic",
+			"name": "Evaluating Generative Models",
+			"children": [
+                {
+                    "type": "paper",
+                    "flavor": "A Note",
+                    "title": "A note on the evaluation of generative models",
+                    "authors": ["Lucas Theis", "Aaron van den Oord", "Matthias Bethge"],
+                    "link": "https://arxiv.org/abs/1511.01844",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "A Note on IS",
+                    "title": "A Note on the Inception Score",
+                    "authors": ["Shane Barratt", "Rishi Sharma"],
+                    "link": "https://arxiv.org/abs/1801.01973",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "FID Explanation",
+                    "title": "How to measure GAN performance",
+                    "authors": ["Jonathan Hui"],
+                    "link": "https://medium.com/@jonathan_hui/gan-how-to-measure-gan-performance-64b988c47732",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "NND",
+                    "title": "Towards GAN Benchmarks Which Require Generalization",
+                    "authors": ["Ishaan Gulrajani", "Colin Raffel", "Luke Metz"],
+                    "link": "https://openreview.net/forum?id=HkxKH2AcFm",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Pros & Cons of GAN metrics",
+                    "title": "Pros and Cons of GAN Evaluation Measures",
+                    "authors": ["Ali Borji"],
+                    "link": "https://arxiv.org/abs/1802.03446",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Skill Rating",
+                    "title": "Skill Rating for Generative Models",
+                    "authors": ["Catherine Olsson, Surya Bhupatiraju, Tom Brown, Augustus Odena, Ian Goodfellow"],
+                    "link": "https://arxiv.org/abs/1808.04888",
+                    "relevance": 1
+                }
+			]	
+		}
+	]
 }
