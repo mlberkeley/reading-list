@@ -19,7 +19,7 @@
                     "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
                     "authors": ["Alec Radford", "Luke Metz", "Soumith Chintala"],
                     "link": "https://arxiv.org/abs/1511.06434",
-                    "relevance": 3
+                    "relevance": 2
                 },
                 {
                     "type": "paper",
@@ -36,14 +36,6 @@
                     "authors": ["Tim Salimans", "Ian Goodfellow", "Wojciech Zaremba", "Vicki Cheung", "Alec Radford", "Xi Chen"],
                     "link": "https://arxiv.org/abs/1606.03498",
                     "relevance": 2
-                },
-                {
-                    "type": "paper",
-                    "flavor": "",
-                    "title": "",
-                    "authors": [""],
-                    "link": "",
-                    "relevance": 3
                 },
                 {
                     "type": "paper",
@@ -71,10 +63,18 @@
                 },
                 {
                     "type": "paper",
-                    "flavor": "PG-GAN",
+                    "flavor": "StyleGAN",
                     "title": "A Style-Based Generator Architecture for Generative Adversarial Networks",
                     "authors": ["Tero Karras", "Samuli Laine", "Timo Aila"],
                     "link": "https://arxiv.org/abs/1812.04948",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "PG-GAN",
+                    "title": "Progressive Growing of GANs for Improved Quality, Stability, and Variation",
+                    "authors": ["Tero Karras", "Timo Aila", "Samuli Laine", "Jaakko Lehtinen"],
+                    "link": "https://arxiv.org/abs/1710.10196",
                     "relevance": 2
                 },
                 {
@@ -91,7 +91,7 @@
                     "title": "Spectral Normalization for Generative Adversarial Networks",
                     "authors": ["Takeru Miyato", "Toshiki Kataoka", "Masanori Koyama", "Yuichi Yoshida"],
                     "link": "https://openreview.net/pdf?id=B1QRgziT-",
-                    "relevance": 2
+                    "relevance": 3
                 },
                 {
                     "type": "paper",
@@ -109,7 +109,7 @@
                     "link": "https://arxiv.org/abs/1903.02271",
                     "relevance": 2
                 }
-		]
+            ]
 		},
 		{
 		  "type": "topic",
@@ -121,7 +121,7 @@
                     "title": "Image-to-Image Translation with Conditional Adversarial Networks",
                     "authors": ["Phillip Isola", "Jun-Yan Zhu", "Tinghui Zhou", "Alexei A. Efros"],
                     "link": "https://arxiv.org/abs/1611.07004",
-                    "relevance": 3
+                    "relevance": 2
                 },
                 {
                     "type": "paper",
@@ -184,7 +184,7 @@
                     "flavor": "Tracking Emerges",
                     "title": "Tracking Emerges by Colorizing Videos",
                     "authors": ["Carl Vondrick", "Abhinav Shrivastava", "Alireza Fathi", "Sergio Guadarrama", "Kevin Murphy"],
-                    "link": "",
+                    "link": "https://arxiv.org/abs/1806.09594",
                     "relevance": 2
                 }
 		]
@@ -199,7 +199,7 @@
                     "title": "MADE: Masked Autoencoder for Distribution Estimation",
                     "authors": ["Mathieu Germain", "Karol Gregor", "Iain Murray", "Hugo Larochelle"],
                     "link": "https://arxiv.org/abs/1502.03509",
-                    "relevance": 2
+                    "relevance": 1
                 },
                 {
                     "type": "paper",
@@ -280,7 +280,7 @@
                 },
                 {
                     "type": "paper",
-                    "flavor": "Real NVP",
+                    "flavor": "RealNVP",
                     "title": "Density Estimation Using Real NVP",
                     "authors": ["Laurent Dinh", "Jascha Sohl-Dickstein", "Samy Bengio"],
                     "link": "https://arxiv.org/abs/1605.08803",
@@ -423,7 +423,7 @@
                     "title": "Representation Learning with Contrastive Predictive Coding",
                     "authors": ["Aaron van den Oord", "Yazhe Li", "Oriol Vinyals"],
                     "link": "https://arxiv.org/abs/1807.03748",
-                    "relevance": 1
+                    "relevance": 3
                 },
                 {
                     "type": "paper",
@@ -431,7 +431,7 @@
                     "title": "Do Better ImageNet Models Transfer Better?",
                     "authors": ["Simon Kornblith", "Jonathon Shlens", "Quoc V. Le"],
                     "link": "https://arxiv.org/abs/1805.08974",
-                    "relevance": 1
+                    "relevance": 2
                 },
                 {
                     "type": "paper",
@@ -439,9 +439,10 @@
                     "title": "Exploring the Limits of Weakly Supervised Pretraining",
                     "authors": ["Dhruv Mahajan", "Ross Girshick", "Vignesh Ramanathan", "Kaiming He", "Manohar Paluri", "Yixuan Li", "Ashwin Bharambe", "Laurens van der Maaten"],
                     "link": "https://arxiv.org/abs/1805.00932",
-                    "relevance": 1
+                    "relevance": 2
                 }
-			]},
+			]
+          },
 		  {
 			"type": "topic",
 			"name": "Evaluating Generative Models",
@@ -449,10 +450,10 @@
                 {
                     "type": "paper",
                     "flavor": "A Note",
-                    "title": "A note on the evaluation of generative models",
+                    "title": "A Note on the Evaluation of Generative Models",
                     "authors": ["Lucas Theis", "Aaron van den Oord", "Matthias Bethge"],
                     "link": "https://arxiv.org/abs/1511.01844",
-                    "relevance": 1
+                    "relevance": 2
                 },
                 {
                     "type": "paper",
@@ -460,7 +461,7 @@
                     "title": "A Note on the Inception Score",
                     "authors": ["Shane Barratt", "Rishi Sharma"],
                     "link": "https://arxiv.org/abs/1801.01973",
-                    "relevance": 1
+                    "relevance": 3
                 },
                 {
                     "type": "paper",
@@ -468,7 +469,7 @@
                     "title": "How to measure GAN performance",
                     "authors": ["Jonathan Hui"],
                     "link": "https://medium.com/@jonathan_hui/gan-how-to-measure-gan-performance-64b988c47732",
-                    "relevance": 1
+                    "relevance": 2
                 },
                 {
                     "type": "paper",
@@ -476,11 +477,11 @@
                     "title": "Towards GAN Benchmarks Which Require Generalization",
                     "authors": ["Ishaan Gulrajani", "Colin Raffel", "Luke Metz"],
                     "link": "https://openreview.net/forum?id=HkxKH2AcFm",
-                    "relevance": 1
+                    "relevance": 2
                 },
                 {
                     "type": "paper",
-                    "flavor": "Pros & Cons of GAN metrics",
+                    "flavor": "Pros & Cons of GAN Metrics",
                     "title": "Pros and Cons of GAN Evaluation Measures",
                     "authors": ["Ali Borji"],
                     "link": "https://arxiv.org/abs/1802.03446",

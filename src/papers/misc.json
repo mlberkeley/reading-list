@@ -1,0 +1,50 @@
+{
+    "type": "topic",
+    "name": "Miscellaneous",
+    "children": [
+        {
+            "type": "topic",
+            "name": "Augmentation",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "AutoAugment",
+                    "title": "AutoAugment: Learning Augmentation Policies from Data",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1805.09501",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "PBA",
+                    "title": "Population Based Augmentation: Efficient Learning of Augmentation Policy Schedules",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1905.05393",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Mixup",
+                    "title": "Mixup: Beyond Empirical Risk Minimization",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1710.09412",
+                    "relevance": 2
+                }
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Other",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "Neural ODEs",
+                    "title": "Neural Ordinary Differential Equations",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1806.07366",
+                    "relevance": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,506 @@
+{
+    "type": "topic",
+    "name": "Image Captioning / VQA",
+    "children": [
+        {
+            "type": "topic",
+            "name": "Image Captioning Datasets",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "COCO",
+                    "title": "Microsoft COCO: Common Objects in Context",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1405.0312",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Flick30k Entities",
+                    "title": "Flickr30k Entities: Collecting Region-to-Phrase Correspondences for Richer Image-to-Sentence Models",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1505.04870",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "DAQUAR",
+                    "title": "A Multi-World Approach to Question Answeringabout Real-World Scenes based on Uncertain Inputs",
+                    "authors": null,
+                    "link": "https://papers.nips.cc/paper/5411-a-multi-world-approach-to-question-answering-about-real-world-scenes-based-on-uncertain-input.pdf",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Conceptual Captions",
+                    "title": "Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning",
+                    "authors": null,
+                    "link": "https://www.aclweb.org/anthology/P18-1238.pdf",
+                    "relevance": 2
+                }
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Visual Question Answering Datasets",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "Visual7W",
+                    "title": "Visual7W: Grounded Question Answering in Images",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1511.03416",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Original VQA Paper",
+                    "title": "VQA: Visual Question Answering",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1505.00468",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Visual Madlibs",
+                    "title": "Visual Madlibs: Fill in the blank Image Generation and Question Answering",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1506.00278",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "COCO-QA",
+                    "title": "Exploring Models and Data for Image Question Answering",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1505.02074",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "CLEVR",
+                    "title": "CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1612.06890",
+                    "relevance": 1
+                }
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Evaluation Metrics",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "BLEU",
+                    "title": "BLEU: A Method for Automatic Evaluation of Machine Translation",
+                    "authors": null,
+                    "link": "https://dl.acm.org/citation.cfm?id=1073135",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Meteor",
+                    "title": "Meteor: An Automatic Metric for MT Evaluation with High Levels of Correlation with Human Judgments",
+                    "authors": null,
+                    "link": "https://dl.acm.org/citation.cfm?id=1626389",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "ROUGE",
+                    "title": "ROUGE: A Package for Automatic Evaluation of Summaries",
+                    "authors": null,
+                    "link": "https://www.aclweb.org/anthology/W04-1013/",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "CIDEr",
+                    "title": "CIDEr: Consensus-based Image Description Evaluation",
+                    "authors": null,
+                    "link": "https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vedantam_CIDEr_Consensus-Based_Image_2015_CVPR_paper.pdf",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "SPICE",
+                    "title": "SPICE: Semantic Propositional Image Caption Evaluation",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1607.08822",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Policy Gradients for SPIDEr",
+                    "title": "Improved Image Captioning via Policy Gradient optimization of SPIDEr",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1612.00370",
+                    "relevance": 0
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Word Mover's Distance",
+                    "title": "Re-evaluating Automatic Metrics for Image Captioning",
+                    "authors": null,
+                    "link": "https://www.aclweb.org/anthology/E17-1019/",
+                    "relevance": 1
+                }
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Attention Models",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Knowing When to Look: Adaptive Attention via A Visual Sentinel for Image Captioning",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1612.01887",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1707.07998",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Show, Attend, and Tell",
+                    "title": "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1502.03044",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Conceptual Captions (Transformer Language Model)",
+                    "title": "Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning",
+                    "authors": null,
+                    "link": "https://www.aclweb.org/anthology/P18-1238.pdf",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "FiLM",
+                    "title": "FiLM: Visual Reasoning with a General Conditioning Layer",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1709.07871",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Incorporating Copying Mechanism in Image Captioning for Learning Novel Objects",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1708.05271",
+                    "relevance": 1
+                }
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Modular Architectures",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Neural Baby Talk",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1803.09845",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Neural Module Networks",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1511.02799",
+                    "relevance": 0
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Learning to Compose Neural Networks for Question Answering",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1601.01705",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Learning to Reason: End-to-End Module Networks for Visual Question Answering",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1704.05526",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Modeling Relationships in Referential Expressions with Compositional Modular Networks",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1611.09978",
+                    "relevance": 1
+                }
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Foundations",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "Baby Talk",
+                    "title": "Baby Talk: Understanding and Generating Image Descriptions",
+                    "authors": null,
+                    "link": "http://tamaraberg.com/papers/generation_cvpr11.pdf",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Show and Tell",
+                    "title": "Show and Tell: A Neural Image Caption Generator",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1411.4555",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Long-term Recurrent Convolutional Networks for Visual Recognition and Description",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1411.4389",
+                    "relevance": 1
+                }
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Other Versions of Image Captioning",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "DenseCap",
+                    "title": "DenseCap: Fully Convolutional Localization Networks for Dense Captioning",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1511.07571",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Deep Visual-Semantic Alignments for Generating Image Descriptions",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1412.2306",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Nocaps",
+                    "title": "Nocaps: Novel Object Captioning at Scale",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1812.08658",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Deep Compositional Captioning",
+                    "title": "Deep Compositional Captioning: Describing Novel Object Categories without Paired Training Data",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1511.05284",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Captioning Images with Diverse Objects",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1606.07770",
+                    "relevance": 1
+                }
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Incorporating Visual Attributes",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Boosting Image Captioning with Attributes",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1611.01646",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Image Captioning with Semantic Attention",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1603.03925",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Show, Observe, and Tell",
+                    "title": "Show, Observe and Tell: Attribute-driven Attention Model for Image Captioning",
+                    "authors": null,
+                    "link": "https://www.ijcai.org/proceedings/2018/0084.pdf",
+                    "relevance": 1
+                }
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Decoding Methods",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Beam Search",
+                    "authors": null,
+                    "link": "https://en.wikipedia.org/wiki/Beam_search",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Guided Open Vocabulary Image Captioning with Constrained Beam Search",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1612.00576",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Lexically Constrained Decoding for Sequence Generation Using Grid Beam Search",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1704.07138",
+                    "relevance": 1
+                }
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Style Transfer",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "Show, Adapt, and Tell",
+                    "title": "Show, Adapt and Tell: Adversarial Training of Cross-domain Image Captioner",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1705.00930",
+                    "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "StyleNet",
+                    "title": "StyleNet: Generating Attractive Visual Captions with Styles",
+                    "authors": null,
+                    "link": "https://www.microsoft.com/en-us/research/uploads/prod/2017/06/Generating-Attractive-Visual-Captions-with-Styles.pdf",
+                    "relevance": 1
+                }
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Discriminability",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Discriminability Objective for Training Descriptive Captions",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1803.04376",
+                    "relevance": 1
+                },
+                {
+                    "type": "paper",
+                    "flavor": "Show, Tell, and Discriminate",
+                    "title": "Show, Tell and Discriminate: Image Captioning by Self-retrieval with Partially Labeled Data",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1803.08314",
+                    "relevance": 1
+                }
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Navigation",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "Vision-and-Language Navigation",
+                    "title": "Vision-and-Language Navigation: Interpreting Visually-Grounded Navigation Instructions in Real Environments",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1711.07280",
+                    "relevance": 3
+                }
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Open-Source Pretrained Models",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Pythia",
+                    "authors": null,
+                    "link": "https://github.com/facebookresearch/pythia",
+                    "relevance": 0
+                }
+            ]
+        },
+        {
+            "type": "topic",
+            "name": "Field Leaders",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Trevor Darrell",
+                    "authors": null,
+                    "link": "https://people.eecs.berkeley.edu/~trevor/",
+                    "relevance": 0
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Devi Parikh",
+                    "authors": null,
+                    "link": "https://www.cc.gatech.edu/~parikh/",
+                    "relevance": 0
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Dhruv Batra",
+                    "authors": null,
+                    "link": "https://www.cc.gatech.edu/~dbatra/",
+                    "relevance": 0
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Peter Anderson",
+                    "authors": null,
+                    "link": "https://panderson.me/",
+                    "relevance": 0
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Stefen Lee",
+                    "authors": null,
+                    "link": "http://web.engr.oregonstate.edu/~leestef/",
+                    "relevance": 0
+                }
+            ]
+        }
+    ]
+}

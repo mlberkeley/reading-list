@@ -4,6 +4,28 @@
     "children": [
         {
             "type": "topic",
+            "name": "Overviews",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Hidden Technical Debt in Machine Learning Systems",
+                    "authors": null,
+                    "link": "https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "A Berkeley View of Systems Challenges for AI",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1712.05855",
+                    "relevance": 2
+                }
+            ]
+        },
+        {
+            "type": "topic",
             "name": "Small Models",
             "children": [
                 {
@@ -12,7 +34,7 @@
                     "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
                     "authors": null,
                     "link": "https://arxiv.org/abs/1704.04861",
-                    "relevance": 1
+                    "relevance": 3
                 },
                 {
                     "type": "paper",
@@ -20,7 +42,7 @@
                     "title": "MobileNetV2: Inverted Residuals and Linear Bottlenecks",
                     "authors": null,
                     "link": "https://arxiv.org/abs/1801.04381",
-                    "relevance": 1
+                    "relevance": 2
                 },
                 {
                     "type": "paper",
@@ -28,7 +50,7 @@
                     "title": "Searching for MobileNetV3",
                     "authors": null,
                     "link": "https://arxiv.org/abs/1905.02244",
-                    "relevance": 1
+                    "relevance": 2
                 },
                 {
                     "type": "paper",
@@ -44,7 +66,7 @@
                     "title": "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks",
                     "authors": null,
                     "link": "https://arxiv.org/abs/1905.11946",
-                    "relevance": 1
+                    "relevance": 3
                 },
                 {
                     "type": "paper",
@@ -60,6 +82,46 @@
             "type": "topic",
             "name": "Quantization",
             "children": [
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "A Survey on Methods and Theories of Quantized Neural Networks",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1808.04752",
+                    "relevance": 0
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1712.05877",
+                    "relevance": 0
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Fixed Point Quantization of Deep Convolutional Networks",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1511.06393",
+                    "relevance": 0
+                },
+                {
+                    "type": "paper",
+                    "flavor": "",
+                    "title": "Mixed Precision Quantization of ConvNets via Differentiable Neural Architecture Search",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1812.00090",
+                    "relevance": 0
+                },
+                {
+                    "type": "paper",
+                    "flavor": "XNOR-Net",
+                    "title": "XNOR-Net: ImageNet Classification Using Binary Convolutional Neural Networks",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1603.05279",
+                    "relevance": 0
+                }
             ]
         },
         {
@@ -72,7 +134,7 @@
                     "title": "InferLine: Prediction Pipeline Provisioning and Management for Tight Latency Objectives",
                     "authors": null,
                     "link": "https://ucbrise.github.io/cs294-ai-sys-fa19/assets/preprint/inferline_draft.pdf",
-                    "relevance": 1
+                    "relevance": 2
                 }
             ]
         },
@@ -86,7 +148,7 @@
                     "title": "TVM: An Automated End-to-End Optimizing Compiler for Deep Learning",
                     "authors": null,
                     "link": "https://arxiv.org/abs/1802.04799",
-                    "relevance": 1
+                    "relevance": 3
                 }
             ]
         },
@@ -104,7 +166,7 @@
                             "title": "Hogwild!: A Lock-Free Approach to Parallelizing Stochastic Gradient Descent",
                             "authors": null,
                             "link": "https://people.eecs.berkeley.edu/~brecht/papers/hogwildTR.pdf",
-                            "relevance": 1
+                            "relevance": 3
                         },
                         {
                             "type": "paper",
@@ -112,7 +174,7 @@
                             "title": "Scaling Distributed Machine Learning with the Parameter Server",
                             "authors": null,
                             "link": "https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf",
-                            "relevance": 1
+                            "relevance": 3
                         },
                         {
                             "type": "paper",
@@ -120,7 +182,7 @@
                             "title": "AllReduce Blog Post",
                             "authors": null,
                             "link": "http://andrew.gibiansky.com/blog/machine-learning/baidu-allreduce/",
-                            "relevance": 1
+                            "relevance": 2
                         },
                         {
                             "type": "paper",
@@ -128,7 +190,7 @@
                             "title": "Data Parallel vs Model Parallel (Wikipedia)",
                             "authors": null,
                             "link": "https://en.wikipedia.org/w/index.php?title=Data_parallelism&oldid=807618997#Data_Parallelism_vs._Model_Parallelism[4]",
-                            "relevance": 1
+                            "relevance": 3
                         },
                         {
                             "type": "paper",
@@ -136,7 +198,7 @@
                             "title": "Demystifying Parallel and Distributed Deep Learning: An In-Depth Concurrency Analysis",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1802.09941",
-                            "relevance": 1
+                            "relevance": 3
                         }
                     ]
                 },
@@ -150,7 +212,7 @@
                             "title": "Horovod: Fast and Easy Distributed Deep Learning in TensorFlow",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1802.05799",
-                            "relevance": 1
+                            "relevance": 0
                         }
                     ]
                 },
@@ -164,7 +226,7 @@
                             "title": "GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1811.06965",
-                            "relevance": 1
+                            "relevance": 0
                         },
                         {
                             "type": "paper",
@@ -172,7 +234,7 @@
                             "title": "PipeDream: Fast and Efficient Pipeline Parallel DNN Training",
                             "authors": null,
                             "link": "https://cs.stanford.edu/~matei/papers/2019/sosp_pipedream.pdf",
-                            "relevance": 1
+                            "relevance": 0
                         }
                     ]
                 },
@@ -186,7 +248,7 @@
                             "title": "3LC: Lightweight and Effective Traffic Compression for Distributed Machine Learning",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1802.07389",
-                            "relevance": 1
+                            "relevance": 0
                         },
                         {
                             "type": "paper",
@@ -194,7 +256,7 @@
                             "title": "Gradient Sparsification for Communication-Efficient Distributed Optimization",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1710.09854",
-                            "relevance": 1
+                            "relevance": 0
                         }
                     ]
                 },
@@ -208,7 +270,7 @@
                             "title": "Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1706.02677",
-                            "relevance": 1
+                            "relevance": 0
                         },
                         {
                             "type": "paper",
@@ -216,7 +278,7 @@
                             "title": "Highly Scalable Deep Learning Training System with Mixed-Precision: Training ImageNet in Four Minutes",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1807.11205",
-                            "relevance": 1
+                            "relevance": 0
                         }
                     ]
                 },
@@ -230,7 +292,7 @@
                             "title": "Horovod",
                             "authors": null,
                             "link": "https://github.com/horovod/horovod",
-                            "relevance": 1
+                            "relevance": 0
                         },
                         {
                             "type": "paper",
@@ -238,7 +300,7 @@
                             "title": "BytePS",
                             "authors": null,
                             "link": "https://github.com/bytedance/byteps",
-                            "relevance": 1
+                            "relevance": 0
                         },
                         {
                             "type": "paper",
@@ -246,7 +308,7 @@
                             "title": "TensorFlow Distributed",
                             "authors": null,
                             "link": "https://www.tensorflow.org/api_docs/python/tf/distribute/Strategy",
-                            "relevance": 1
+                            "relevance": 0
                         },
                         {
                             "type": "paper",
@@ -254,7 +316,7 @@
                             "title": "PyTorch Distributed DataParallel",
                             "authors": null,
                             "link": "https://pytorch.org/docs/stable/nn.html#torch.nn.parallel.DistributedDataParallel",
-                            "relevance": 1
+                            "relevance": 0
                         }
                     ]
                 }
@@ -274,7 +336,7 @@
                             "title": "The Reversible Residual Network: Backpropagation Without Storing Activations",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1707.04585",
-                            "relevance": 1
+                            "relevance": 0
                         },
                         {
                             "type": "paper",
@@ -282,7 +344,7 @@
                             "title": "Low-Memory Neural Network Training: A Technical Report",
                             "authors": null,
                             "link": "https://arxiv.org/pdf/1904.10631.pdf",
-                            "relevance": 1
+                            "relevance": 0
                         }
                     ]
                 }

@@ -1,3 +1,4 @@
 npm run build
-cp -r build ../website/reading-list
+rm -r ~/Desktop/website/reading-list
+cp -r build ~/Desktop/website/reading-list
 scp -r /Users/chris/Desktop/website/* s78lmtj8916t@chrisliambender.com:/home/s78lmtj8916t/public_html

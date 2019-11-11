@@ -7,6 +7,10 @@
     bottom: 0;
 }
 
+p + ul {
+    margin-top: -12px;
+}
+
 /*    background-color: #b8acd4;*/
 .App-index {
     background-color: white;
@@ -18,9 +22,22 @@
     right: 70vw;
     left: 0;
     bottom: 0;
+    display: flex;
 }
+/*.App-index::after {
+    content: '';
+    position: aboslute;
+    top: 15%;
+    bottom: 15%;
+    right: 1px;
+    width: 1px;
+    background-color: green;
+}*/
 .App-index-inner {
     margin: 10%;
+}
+.App-index-li {
+    cursor: pointer;
 }
 /* This is the default
 ul, ol {
@@ -74,6 +91,11 @@ img {
     float: right;
 }
 
+
+@keyframes paperjump {
+    from { background: blue ; }
+    to { background: transparent; }
+}
 /*    background-color: #a82c34;*/
 .App-content {
     text-align: left;
@@ -87,8 +109,32 @@ img {
 }
 .App-content-inner {
     margin-right: 15%;
+    margin-bottom: 5%;
+}
+.App-content-contributor-email {
+    font-size: 13px;
 }
 
-.App-link {
-    color: #09d3ac;
+.App-content-paper{
+
 }
+.App-content-paper-highlight {
+    animation-name: paperjump;
+    animation-duration: 3s;
+}
+
+.App-paperjump-element {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+a:link {
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+}
+a:active {
+}
+

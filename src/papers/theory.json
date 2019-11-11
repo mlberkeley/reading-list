@@ -32,24 +32,12 @@
                 },
                 {
                     "type": "paper",
-                    "flavor": "PFM",
+                    "flavor": "Parameter-Function Map",
                     "title": "Deep Learning Generalizes Because the Parameter-Function Map is Biased Towards Simple Functions",
                     "authors": null,
                     "link": "https://arxiv.org/abs/1805.08522",
                     "relevance": 3
                 }
-            ]
-        },
-        {
-            "type": "topic",
-            "name": "Information Bottleneck",
-            "children": [
-            ]
-        },
-        {
-            "type": "topic",
-            "name": "Neural Tangent Kernel",
-            "children": [
             ]
         },
         {
@@ -66,7 +54,7 @@
                             "title": "Towards Evaluating the Robustness of Neural Networks",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1608.04644",
-                            "relevance": 1
+                            "relevance": 0
                         },
                         {
                             "type": "paper",
@@ -74,7 +62,7 @@
                             "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1706.06083",
-                            "relevance": 1
+                            "relevance": 0
                         },
                         {
                             "type": "paper",
@@ -82,7 +70,7 @@
                             "title": "Robustness May Be At Odds With Accuracy",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1805.12152",
-                            "relevance": 1
+                            "relevance": 0
                         },
                         {
                             "type": "paper",
@@ -90,7 +78,7 @@
                             "title": "Adversarially Robust Generalization Requires More Data",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1804.11285",
-                            "relevance": 1
+                            "relevance": 0
                         },
                         {
                             "type": "paper",
@@ -98,7 +86,7 @@
                             "title": "Adversarial Examples Are Not Bugs, They Are Features",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1905.02175",
-                            "relevance": 1
+                            "relevance": 0
                         },
                         {
                             "type": "paper",
@@ -106,7 +94,7 @@
                             "title": "Certified Adversarial Robustness via Randomized Smoothing",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1902.02918",
-                            "relevance": 1
+                            "relevance": 0
                         }
                     ]
                 },
@@ -120,7 +108,7 @@
                             "title": "Generalisation in Humans and Deep Neural Networks",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1808.08750",
-                            "relevance": 1
+                            "relevance": 0
                         },
                         {
                             "type": "paper",
@@ -128,7 +116,7 @@
                             "title": "Benchmarking Neural Network Robustness to Common Corruptions and Surface Variations",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1807.01697",
-                            "relevance": 1
+                            "relevance": 2
                         },
                         {
                             "type": "paper",
@@ -136,7 +124,7 @@
                             "title": "ImageNet-Trained Cnns Are Biased Towards Texture; Increasing Shape Bias Improves Accuracy and Robustness ",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1811.12231",
-                            "relevance": 1
+                            "relevance": 3
                         },
                         {
                             "type": "paper",
@@ -144,7 +132,7 @@
                             "title": "Do ImageNet Classifiers Generalize to ImageNet?",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1902.10811",
-                            "relevance": 1
+                            "relevance": 3
                         },
                         {
                             "type": "paper",
@@ -152,7 +140,7 @@
                             "title": "When Robustness Doesn’t Promote Robustness: Synthetic vs. Natural Distribution Shifts on ImageNet",
                             "authors": null,
                             "link": "https://openreview.net/forum?id=HyxPIyrFvH",
-                            "relevance": 1
+                            "relevance": 2
                         },
                         {
                             "type": "paper",
@@ -160,7 +148,7 @@
                             "title": "Should Adversarial Attacks Use Pixel p-Norm?",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1906.02439",
-                            "relevance": 1
+                            "relevance": 0
                         },
                         {
                             "type": "paper",
@@ -168,7 +156,7 @@
                             "title": "Transfer of Adversarial Robustness Between Perturbation Types",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1905.01034",
-                            "relevance": 1
+                            "relevance": 0
                         }
                     ]
                 }
@@ -204,7 +192,7 @@
                             "title": "Adam: A Method for Stochastic Optimization",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1412.6980",
-                            "relevance": 1
+                            "relevance": 3
                         },
                         {
                             "type": "paper",
@@ -220,7 +208,7 @@
                             "title": "Lookahead Optimizer: k Steps Forward, 1 Step Back",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1907.08610",
-                            "relevance": 1
+                            "relevance": 2
                         }
                     ]
                 },
@@ -242,7 +230,7 @@
                             "title": "The Goldilocks Zone: Towards Better Understanding of Neural Network Loss Landscapes",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1807.02581",
-                            "relevance": 1
+                            "relevance": 2
                         },
                         {
                             "type": "paper",
@@ -250,7 +238,7 @@
                             "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1803.03635",
-                            "relevance": 1
+                            "relevance": 3
                         },
                         {
                             "type": "paper",
@@ -258,7 +246,7 @@
                             "title": "Visualizing the Loss Landscape of Neural Nets",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1712.09913",
-                            "relevance": 1
+                            "relevance": 2
                         },
                         {
                             "type": "paper",
@@ -266,7 +254,7 @@
                             "title": "Qualitatively Characterizing Neural Network Optimization Problems",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1412.6544",
-                            "relevance": 1
+                            "relevance": 2
                         },
                         {
                             "type": "paper",
@@ -274,7 +262,7 @@
                             "title": "An Empirical Model of Large-Batch Training",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1812.06162",
-                            "relevance": 1
+                            "relevance": 3
                         },
                         {
                             "type": "paper",
@@ -282,7 +270,7 @@
                             "title": "On The Marginal Value of Adaptive Gradient Methods in Machine Learning",
                             "authors": null,
                             "link": "https://arxiv.org/abs/1705.08292",
-                            "relevance": 1
+                            "relevance": 2
                         }
                     ]
                 }

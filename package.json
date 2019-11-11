@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://www.chrisliambender.com/reading-list",
+  "main": "index.js",
   "dependencies": {
     "json": "^9.0.6",
     "json-loader": "^0.5.7",
