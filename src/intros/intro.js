@@ -367,7 +367,7 @@ export class Intro extends React.Component {
                         rel="noopener noreferrer" >
                         distill.pub
                     </a>
-                    ). Typically tackling paper that require more background knowledge,
+                    ). Typically tackling papers that require more background knowledge,
                     DFL is a great resource for very high-quality blogs and explanations
                     of ML research concepts.
                 </p>
