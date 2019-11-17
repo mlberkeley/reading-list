@@ -260,9 +260,9 @@ class Guide extends React.Component {
                         We only need a few examples (perhaps even one) of a given
                         class to be able to reliably recognize it.
                         One explanation for this is that we have "learned how to learn";
-                        tht is, we have seen many other objects in the real world,
-                        so we have an undderstanding of the general properties of
-                        objects. The study of "learning to learn" in neural networks
+                        that is, we have seen many other objects in the real world,
+                        so we have an understanding of the general properties of
+                        objects. The study of "learning to learn"
                         is termed <i>meta-learning</i>, and the MAML paper introduces
                         a very simple approach for meta-learning: Just train
                         the model to be easy to fine-tune.
@@ -355,8 +355,8 @@ export class Intro extends React.Component {
                         rel="noopener noreferrer" >
                         www.depthfirstlearning.com
                     </a>
-                    ). Typically tackling paper that require more background knowledge,
-                    DFL is a great resource for very high-quality blogs and explanations
+                    ). Typically tackling papers that require more background knowledge,
+                    DFL is a great resource for very high-quality explanations
                     of ML research concepts.
                 </p>
                 <p>
@@ -390,7 +390,7 @@ export class Intro extends React.Component {
                         rel="noopener noreferrer" >
                         www.reddit.com/r/machinelearning
                     </a>
-                    ). A great Reddit community for discussions on ML.
+                    ). Reddit community for discussions on ML.
                 </p>
                 <p><b>Twitter Accounts</b></p>
                 <ul>
