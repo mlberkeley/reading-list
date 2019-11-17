@@ -2,7 +2,7 @@
   "name": "reading-list",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.chrisliambender.com/reading-list",
+  "homepage": "http://ml.berkeley.edu/reading-list",
   "main": "index.js",
   "dependencies": {
     "json": "^9.0.6",
