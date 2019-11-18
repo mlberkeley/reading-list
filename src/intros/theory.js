@@ -8,18 +8,13 @@ export class Intro extends React.Component {
 <div>
 
 <p>
-Machine learning theory fills textbooks, not reading lists.
-The math behind machine learning is incredibly rich,
-as such we’ve focused here on a tiny subset of the subset that pertains to deep learning.
-Some types of theory are important in applications,
-such as robustness and generalization guarantees.
-</p>
-
-<p>
+Machine learning theory seeks to understand the principles
+behind why ML works. ML theory on the whole is quite
+expansive, and as such, we have decided to only
+focus on the narrow subset that pertains to deep learning.
 A solid math background is necessary for most theory papers,
-particularly in linear algebra and probability,
-a mid-level undergraduate understanding is sufficient.
-Once that is sufficient, the following broader resources are excellent:
+particularly in linear algebra and probability.
+With that background, the following resources are quite good:
 </p>
 <ul>
 <li>
@@ -41,43 +36,50 @@ Berkeley’s CS189: Introduction to Machine Learning is quite theoretical and gi
 is an excellent theory-focused blog with strong Bayesian flavor.
 </li>
 <li>
-There are many textbooks on ML, and they end up being quite theory and classical-focused.
-The current editors of the reading list believe in your ability to find one that suits you 
-(Bishop’s Pattern Recognition and Machine Learning,
+There are many textbooks on ML, and 
+many of them are quite theory and classical-ML-focused.
+Common texbooks include Bishop’s Pattern Recognition and Machine Learning,
 James’s Introduction to Statistical Learning,
-and Murphy’s Machine Learning: A Probabilistic Perspective are all commonly-recommended options).
+and Murphy’s Machine Learning: A Probabilistic Perspective.
 </li>
 </ul>
 
 <p>
-The topics so-far-covered in this reading list are generalization, robustness, and optimization for deep learning, each of which are of practical relevance.
+The topics covered so far in this reading list are:
+generalization, robustness, and optimization.
 </p>
 
 <p>
 Generalization is perhaps the key problem of machine learning:
-How do we build models from data which perform well across an entire distribution,
-not just our samples? 
+How do we build models which perform well across an entire distribution,
+not just the particular samples that the model was trained on?
 Avoiding overfitting is of particular interest in the overparameterized 
 regime of deep learning. A key question here is why does deep learning generalize 
 (work at all!) given that there are almost always enough parameters in a model 
-to perfectly fit your data infinitely many ways?
-This line of research is particularly fascinating.
+to perfectly fit your data?
+(Most generalization bounds for classical machine learning rely
+on the fact that classical ML models usually have fewer parameters than
+data points).
 </p>
 
 <p>
 Robustness to adversaries and distribution shift is practically relevant,
-as training data rarely looks like the data you deploy your model on.
+as data that the model is tested on sometimes diverges substantially
+from training data.
 Adversarial robustness refers to the ability of a model to perform well 
-despite targeted attacks against it, in the form of input perturbations.
-On the other hand, non-adversarial robustness is the ability of a model to perform 
-well when it is deployed on data that is slightly different from training data.
-Current deep learning methods are so far brittle against both adversaries and distribution shift.
+despite targeted attacks against it,
+whereas non-adversarial robustness is the ability of a model to perform 
+well when it is deployed on data that differs in more natural ways
+from training data.
+Current deep learning models are thus far quite brittle against these perturbations,
+so having more robust models is quite relevant for real-world applications.
 </p>
 
 <p>
-Optimization is the procedure which minimizes an empirical cost of a model over a dataset,
-typically taking iterative passes over the data and updating parameters.
-Improved optimization methods adjust SGD to more quickly arrive at a minima 
+Finally, optimization is the procedure which minimizes the loss of the model
+over a fixed dataset.
+Usually, this is done by gradient descent on iterative passes over the data.
+Improved optimization methods adjust SGD to more quickly arrive at a minimum
 which generalizes well, and there is a rich family of research at the 
 intersection of optimization, systems, and generalization.
 </p>
