@@ -66,7 +66,7 @@ this
 Studying the progress in ImageNet is helpful because 
 you learn what tricks work well on real-world, large-scale datasets.
 Indeed, many of the architectures and tricks that are used all over the place in deep learning 
-(InceptionNets, ResNets, Batch Norm??, Dropout??)
+(InceptionNets, ResNets, Batch Norm, Dropout)
 were originally developed for the ILSVRC competition.
 </p>
 </div>

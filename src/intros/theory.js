@@ -6,6 +6,7 @@ export class Intro extends React.Component {
     render() {
         return (
 <div>
+
 <p>
 Machine learning theory fills textbooks, not reading lists.
 The math behind machine learning is incredibly rich,

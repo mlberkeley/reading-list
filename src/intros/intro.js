@@ -400,9 +400,6 @@ export class Intro extends React.Component {
                             name="Andrej Karpathy"
                             user="karpathy" />
                         <TwitterAccount
-                            name="Ian Goodfellow"
-                            user="goodfellow_ian" />
-                        <TwitterAccount
                             name="Woj Zaremba"
                             user="woj_zaremba" />
                         <TwitterAccount

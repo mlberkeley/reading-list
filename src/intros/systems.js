@@ -1,31 +1,60 @@
 import React from 'react';
 
-export const contributors = ['Brian Friedenberg', 'Phillip Kravtsov'];
+export const contributors = ['Brian Friedenberg', 'Chris Bender', 'Phillip Kravtsov'];
 
 export class Intro extends React.Component {
     render() {
         return (
 <div>
+
 <p>
-Systems for ML, not to be confused with ML for Systems, aims to build performant, robust, systems to train and deploy complex ML algorithms. The systems which we use to run ML underly quite literally every application ML has. To illustrate, autonomous driving needs robust systems to run deep models in real-time on potentially limited hardware. All training of large deep models relies on efficient frameworks and hardware for computation and strategies to split computation across multiple machines and GPU’s. Google Translate and Assistant are massively complex systems which serve large deep learning models to millions of users.
+Many of the recent advances in machine learning can, at least in part,
+be credited to systems improvements. Notably,
+much of the AlexNet paper is spent discussing how they fit their neural
+network onto two GPUs, enabling much faster training than before.
+(AlexNet was trained with two GTX 580s, which had 3GB of GPU memory each,
+much less than we have today!)
 </p>
 
 <p>
-Much of the advances in the current ML wave can, at least partially, be traced back to drastic systems improvements. For instance, much of the AlexNet paper discusses how to fit a large neural network across two GPU’s, enabling much faster training for larger models than was possible beforehand. Research in systems for ML broadly aims to better map ML algorithms on to hardware, and focuses on creating efficient, robust software+hardware systems to train and deploy ML algorithms. We enjoy the fruits of this labor in the form of faster training and inference, models served at scale, and better software for deployment of models.
+ML systems research typically falls into one of two categories: training and inference.
+For training time, problems that ML systems researchers think about include:
+How can we make training a neural network over multiple GPUs faster?
+What about multiple machines (each with multiple GPUs)?
+If we are training a neural network over many machines, how do we deal
+with random machine failure?
+How do we design machine learning frameworks (such as PyTorch and TensorFlow)
+with the right level of abstraction, such that machine learning researchers
+find the system both easy to use and flexible?
+Can we design custom circuits that make it faster to train models?
+If our model is too big to fit on a single GPU, can we develop a tool
+to automatically split the model over multiple GPUs to minimize
+communication overhead between the GPUs?
 </p>
 
 <p>
-Since 2012, deep learning systems research has made improvements in a number of key areas. These include efficient hardware, strategies for faster distributed training, quantization of networks for faster inference, faster and easier-to-use deep learning frameworks, systems for serving ML models, and training under constraints.
+In contrast, on the inference side, problems that ML systems researchers
+think about include:
+Given a trained network, can we distill the number of floating point
+operations that the particular network requires, in order to speed
+up inference?
+If we have lots of inference requests coming in, how can we best batch
+requests together?
+If our serving system requires various hardware backends (e.g., we use both CPUs
+and GPUs at inference time), how can we best allocate these resources
+to different parts of the computation?
 </p>
 
 <p>
-To get a quick understanding of what we’re looking at, feel free to glance at the
+To get a high-level view of the history of and the big ideas in ML systems research,
+the intro slides from
 {} <a
     href="https://ucbrise.github.io/cs294-ai-sys-fa19/"
     target="_blank"
     rel="noopener noreferrer" >
         Berkeley ML Systems Course
-</a>. Much of the content here comes, in part, from that course. The intro slides give a broad overview.
+</a> {}
+is a great resource.
 </p>
 
 </div>

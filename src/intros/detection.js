@@ -8,23 +8,63 @@ export class Intro extends React.Component {
 <div>
 
 <p>
-Image classification, despite being the first and most fruitful tasks of deep computer vision, isn’t a particularly useful task on it’s own. Far more frequently, we care about localization as well: not just what, but also where are the interesting things in the image. Most visual experience contains multiple objects, and the location of those objects is often key to the task at hand, think of autonomous driving or tumor identification; both tasks require localization in addition to semantic understanding. Most broadly, we care about finding functions from images to structured output, such as a set of boxes or pixel-wise predictions.
+Image classification, despite being a well-expored task in computer vision research, 
+isn’t a particularly useful task on its own.
+Far more frequently, we care about localization as well: 
+Not only identifying if an object exists in an image, but also where in the image it is.
+Most computer vision tasks are helped by this location information;
+for example, when driving an autonomous car, we care about identifying the
+exact location of other cars in the frame, not only whether a car exists or not.
 </p>
 
 <p>
-Detection refers to the task of mapping from input images to a set of bounding boxes with location and class information for each (major) object in the image. The number of detections is variable, and the outputs are quite heterogeneous (regression + distribution over classes), as such the architectures for detection tend to be heavier, more complex, and more prone to bugs and subtle failures. Measures of quality for detection are more complex than those for classification.
+Object Detection refers to the task of mapping from input images 
+to a set of bounding boxes with location and class information for each desired 
+object type in the image.
+Since the number of detections is variable and we need to predict both
+bounding boxes and classes, the architectures for object detection 
+tend to be more complex and prone to bugs and subtle failures.
+Also, it is not as clear how to measure object detector performance
+(most people use 
+{} <a
+    href="https://medium.com/@jonathan_hui/map-mean-average-precision-for-object-detection-45c121a31173"
+    target="_blank"
+    rel="noopener noreferrer" >
+        Mean Average Precision
+</a>,
+but there are still hyperparameters that you need to pick).
 </p>
 
 <p>
-Detection methods generally fall into two categories: single and multistage. Multistage detection, also called two stage detection, splits the problem into two phases: extracting the objects, and then predicting information about the objects. The R-CNN family of models, for instance, extracts regions (bounding boxes) from an image and then classifies them and adjusts the bounding boxes separately. Single stage detectors only involve a single pass through a network which outputs all of the information needed. Single stage detectors tend to be much faster, but less accurate, than two stage methods. Significant research has gone into trying to close this gap.
+Detection methods generally fall into two categories: 
+single-stage and multi-stage. 
+Multistage detection, also called two stage detection, splits the problem into two phases: 
+extract locations of potential objects within the image, then predict the class
+of the potential objects.
+The R-CNN family of models takes this approach.
+Single-stage detectors, in contrast, only involve a single pass through a network 
+which outputs all of the desired information.
+Single stage detectors tend to be much faster, but less accurate, than two stage methods.
 </p>
 
 <p>
-In addition to bounding boxes, one can predict pixel-wise outputs. For instance, pixel-wise classification is referred to as segmentation, judging to what object (instance segmentation) or what type of object (semantic segmentation) a particular pixel belongs to. One can also perform pixel-wise regression, an example of which is monocular depth estimation (at each pixel, how far is it away in 3-space?).
+In addition to bounding boxes, one can also predict pixel-wise class information.
+This task of labelling the class of every single pixel in the image is known as
+<i>semantic segmentation</i>.
+Closely related is the task of <i>instance segmentation</i>, where we desire to 
+not only label the class of every pixel, but also distinguish between different instances
+of the same class.
+For example, in the self-driving setting,
+a semantic segmentation network would label all the cars in the image with the
+class "Car", while an instance segmentation network would label each car
+with the class "Car" and a different index.
 </p>
 
 <p>
-Finally, structured outputs can predict 3d information from a 2d image. Such tasks have ripe potential for research, as many problems are still unsolved.
+2D object detection and segmentation are very common tasks for applied computer vision,
+but there exist more complex tasks with structured outputs:
+For example, one can do object detection on 3D point cloud data, 
+or one can do pixelwise regression for monocular (i.e., from a single image) depth estimation.
 </p>
 
 </div>
