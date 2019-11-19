@@ -206,11 +206,12 @@ class AppMain extends React.Component {
         };
         this.makeOnSectionClicked = this.makeOnSectionClicked.bind(this);
         this.makeOnPaperJump = this.makeOnPaperJump.bind(this);
+        this.currentIndex = 0;
     }
 
     makeOnSectionClicked(idx) {
         return ev => {
-            if (idx !== this.props.sectionIdx) {
+            if (idx !== this.currentIndex) {
                 if (idx === 0) {
                     this.props.history.push('/')
                 } else {
@@ -219,6 +220,7 @@ class AppMain extends React.Component {
                 this.setState({
                     paperToHighlight: null,
                 })
+                this.currentIndex = idx;
             }
         };
     }
@@ -232,28 +234,53 @@ class AppMain extends React.Component {
         }
     }
 
-    render() {
-
-        
-
+    makeRouterSection(sectionIdx) {
         return (
-            <div className="App">
-                <div className="App-index">
-                    <Index 
-                        makeOnClick={this.makeOnSectionClicked}
-                    />
-                </div>
+            <>
                 <div className="App-header">
                     <Header
-                        currentSection={this.props.sectionIdx}
+                        currentSection={sectionIdx}
                     />
                 </div>
                 <div className="App-content">
                     <Content
-                        currentSection={this.props.sectionIdx}
+                        currentSection={sectionIdx}
                         makeOnPaperJump={this.makeOnPaperJump}
                         paperToHighlight={this.state.paperToHighlight}
                     />
+                </div>
+            </>
+        )
+    }
+
+    render() {
+
+        let routes = [];
+        for (let i = 0; i < allTopicFiles.length; i++) {
+            if (i === 0) {
+                routes.push(
+                    <Route 
+                        key='/'
+                        path='/'
+                        render={props => <div>{this.makeRouterSection(i)}</div>} />
+                );
+            } else {
+                routes.push(
+                    <Route 
+                        key={'/' + allTopicFiles[i]} 
+                        path={'/' + allTopicFiles[i]} 
+                        render={props => <div>{this.makeRouterSection(i)}</div>} />
+                );
+            }
+        }
+
+        return (
+            <div className="App">
+                <div className="App-index">
+                    <Index makeOnClick={this.makeOnSectionClicked} />
+                </div>
+                <div>
+                    {routes}
                 </div>
             </div>
         );
@@ -263,27 +290,9 @@ class AppMain extends React.Component {
 }
 
 function App() {
-
-    let routes = [];
-    for (let i = 0; i < allTopicFiles.length; i++) {
-        if (i === 0) {
-            routes.push(
-                <Route 
-                    exact path="/"
-                    render={props => <AppMain sectionIdx={i} {...props} />} />
-            );
-        } else {
-            routes.push(
-                <Route 
-                    exact path={"/" + allTopicFiles[i]} 
-                    render={props => <AppMain sectionIdx={i} {...props} />} />
-            );
-        }
-    }
-
     return (
         <Router>
-            <div>{routes}</div>
+            <Route path='/' component={AppMain} />
         </Router>
     );
 }
