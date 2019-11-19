@@ -1,6 +1,7 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
-import { allPapers } from './Papers.js';
+import { allTopicFiles, allPapers } from './Papers.js';
 import { allContributors, allIntros, contributorToEmail } from './Intros.js';
 
 class Index extends React.Component {
@@ -201,7 +202,6 @@ class AppMain extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            currentSection: 0,
             paperToHighlight: null,
         };
         this.makeOnSectionClicked = this.makeOnSectionClicked.bind(this);
@@ -210,10 +210,16 @@ class AppMain extends React.Component {
 
     makeOnSectionClicked(idx) {
         return ev => {
-            this.setState({
-                currentSection: idx,
-                paperToHighlight: null,
-            })
+            if (idx !== this.props.sectionIdx) {
+                if (idx === 0) {
+                    this.props.history.push('/')
+                } else {
+                    this.props.history.push('/' + allTopicFiles[idx])
+                }
+                this.setState({
+                    paperToHighlight: null,
+                })
+            }
         };
     }
 
@@ -227,6 +233,9 @@ class AppMain extends React.Component {
     }
 
     render() {
+
+        
+
         return (
             <div className="App">
                 <div className="App-index">
@@ -236,12 +245,12 @@ class AppMain extends React.Component {
                 </div>
                 <div className="App-header">
                     <Header
-                        currentSection={this.state.currentSection}
+                        currentSection={this.props.sectionIdx}
                     />
                 </div>
                 <div className="App-content">
                     <Content
-                        currentSection={this.state.currentSection}
+                        currentSection={this.props.sectionIdx}
                         makeOnPaperJump={this.makeOnPaperJump}
                         paperToHighlight={this.state.paperToHighlight}
                     />
@@ -254,8 +263,28 @@ class AppMain extends React.Component {
 }
 
 function App() {
+
+    let routes = [];
+    for (let i = 0; i < allTopicFiles.length; i++) {
+        if (i === 0) {
+            routes.push(
+                <Route 
+                    exact path="/"
+                    render={props => <AppMain sectionIdx={i} {...props} />} />
+            );
+        } else {
+            routes.push(
+                <Route 
+                    exact path={"/" + allTopicFiles[i]} 
+                    render={props => <AppMain sectionIdx={i} {...props} />} />
+            );
+        }
+    }
+
     return (
-        <AppMain/>
+        <Router>
+            <div>{routes}</div>
+        </Router>
     );
 }
 
