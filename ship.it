@@ -1,4 +1,13 @@
-npm run build
-rm -r ~/Desktop/website/reading-list
-cp -r build ~/Desktop/website/reading-list
-scp -r /Users/chris/Desktop/website/* s78lmtj8916t@chrisliambender.com:/home/s78lmtj8916t/public_html
+echo "Connecting to ml.berkeley.edu ..."
+ssh mlab@ml.berkeley.edu /bin/bash << EOF
+    echo "Connected to ml.berkeley.edu"
+    cd ~/myapp/src/reading-list
+    if [ -n "$(git status --porcelain)" ]; then # if empty
+        echo "Git index is clean. Pulling from master..."
+        git pull origin master
+        echo "Running npm run build ..."
+        npm run build
+    else
+        echo "Git index is dirty. Please clean and re-run.";
+    fi
+EOF
