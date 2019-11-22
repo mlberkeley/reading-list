@@ -75,7 +75,7 @@ class Header extends React.Component {
                 </div>
                 <div className="App-header-logo">
                     <img 
-                        src={this.props.matchContainsRL ? "../mlab-logo-horizontal.png" : "mlab-logo-horizontal.png"}
+                        src="mlab-logo-horizontal.png"
                         alt="ML@B Logo" />
                 </div>
             </div>
@@ -220,16 +220,14 @@ class AppMain extends React.Component {
         };
         this.makeOnSectionClicked = this.makeOnSectionClicked.bind(this);
         this.makeOnPaperJump = this.makeOnPaperJump.bind(this);
-        this.matchContainsRL = this.props.match.url.includes('reading-list');
     }
 
     getCurrentSectionIdx() {
         let pathname = this.props.location.pathname;
-        if (this.matchContainsRL ? pathname === '/reading-list' : pathname === '/') {
+        if (pathname === '/') {
             return 0;
         } else {
-            let strippedPathname = pathname.split('/reading-list')[1];
-            return allTopicFiles.indexOf(strippedPathname);
+            return allTopicFiles.indexOf(pathname.slice(1));
         }
     }
 
@@ -237,17 +235,13 @@ class AppMain extends React.Component {
         return ev => {
             if (idx !== this.getCurrentSectionIdx()) {
                 if (idx === 0) {
-                    this.props.history.push(
-                        this.matchContainsRL ? '/reading-list' : '/'
-                    );
+                    this.props.history.push('/')
                 } else {
-                    this.props.history.push(
-                        this.matchContainsRL ? '/reading-list/' + allTopicFiles[idx] : '/' + allTopicFiles[idx]
-                    );
+                    this.props.history.push('/' + allTopicFiles[idx])
                 }
                 this.setState({
                     paperToHighlight: null,
-                });
+                })
             }
         };
     }
@@ -257,7 +251,7 @@ class AppMain extends React.Component {
             this.setState({
                 currentSection: paper.rootTopicIndex,
                 paperToHighlight: paper,
-            });
+            })
         }
     }
 
@@ -267,7 +261,6 @@ class AppMain extends React.Component {
                 <div className="App-header">
                     <Header
                         currentSection={sectionIdx}
-                        matchContainsRL={this.matchContainsRL}
                     />
                 </div>
                 <div className="App-content">
@@ -289,14 +282,14 @@ class AppMain extends React.Component {
                 routes.push(
                     <Route 
                         key='/'
-                        exact path='(/|/reading-list)'
+                        exact path='/'
                         render={props => <div>{this.makeRouterSection(i)}</div>} />
                 );
             } else {
                 routes.push(
                     <Route 
                         key={'/' + allTopicFiles[i]} 
-                        exact path={'(/' + allTopicFiles[i] + '|/reading-list/' + allTopicFiles[i] + ')'} 
+                        exact path={'/' + allTopicFiles[i]} 
                         render={props => <div>{this.makeRouterSection(i)}</div>} />
                 );
             }
@@ -318,19 +311,17 @@ class AppMain extends React.Component {
 }
 
 function App() {
-    let possiblePaths = '/|/reading-list';
+    let possiblePaths = '';
     for (let i = 1; i < allTopicFiles.length; i++) {
-        possiblePaths += '|/' + allTopicFiles[i];
-        possiblePaths += '|/reading-list/' + allTopicFiles[i];
+        possiblePaths += '|' + allTopicFiles[i];
     }
-    possiblePaths = '(' + possiblePaths + ')'
+    possiblePaths = '/(' + possiblePaths + ')'
     return (
         <Router basename="reading-list">
             <Route exact path={possiblePaths} component={AppMain} />
         </Router>
     );
 }
-//            <Route exact path={possiblePaths} component={AppMain} />
 
 export default App;
 
