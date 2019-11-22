@@ -67,7 +67,6 @@ class Index extends React.Component {
 class Header extends React.Component {
 
     render() {
-        this.props.matchContainsRL = false;
         return (
             <div>
                 <div className="App-header-text">
