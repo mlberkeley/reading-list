@@ -157,18 +157,31 @@ class Content extends React.Component {
             email = email.split('.').join(' dot ');
             email = '(' + email + ')';
             return (
-                [
-                    <b>{contributor}</b>,
-                    ' ',
+                <>
+                    <b>{contributor}</b>
+                    {' '}
                     <span className="App-content-contributor-email">{email}</span>
-                ]
+                </>
             );
-        }); //.reduce((a, b) => [a, ', ', b]);
+        });
         if (contributors.length > 2) {
-            contributors[contributors.length - 1].unshift(' and ');
-            contributors = contributors.reduce((a, b) => [a, ', ', b]);
+            contributors[contributors.length - 1] = (
+                <>
+                    and {' '}
+                    {contributors[contributors.length - 1]}
+                </>
+            );
+            contributors = contributors.reduce((a, b) => (
+                <>
+                    {a}, {b}
+                </>
+            ));
         } else {
-            contributors = contributors.reduce((a, b) => [a, ' and ', b]);
+            contributors = contributors.reduce((a, b) => (
+                <>
+                    {a} and {b}
+                </>
+            ));
         }
         return contributors;
     }
@@ -189,7 +202,7 @@ class Content extends React.Component {
                 {intro}
                 {papersTitle}
                 <ul>{processedPapers}</ul>
-                {ThisIntro.displayedContributors ? [] : ['Contributors: ', contributors]}
+                {ThisIntro.displayedContributors ? null : <>Contributors: {contributors}</>}
             </div>
         );
 
@@ -206,12 +219,20 @@ class AppMain extends React.Component {
         };
         this.makeOnSectionClicked = this.makeOnSectionClicked.bind(this);
         this.makeOnPaperJump = this.makeOnPaperJump.bind(this);
-        this.currentIndex = 0;
+    }
+
+    getCurrentSectionIdx() {
+        let pathname = this.props.location.pathname;
+        if (pathname === '/') {
+            return 0;
+        } else {
+            return allTopicFiles.indexOf(pathname.slice(1));
+        }
     }
 
     makeOnSectionClicked(idx) {
         return ev => {
-            if (idx !== this.currentIndex) {
+            if (idx !== this.getCurrentSectionIdx()) {
                 if (idx === 0) {
                     this.props.history.push('/')
                 } else {
@@ -220,7 +241,6 @@ class AppMain extends React.Component {
                 this.setState({
                     paperToHighlight: null,
                 })
-                this.currentIndex = idx;
             }
         };
     }
@@ -261,14 +281,14 @@ class AppMain extends React.Component {
                 routes.push(
                     <Route 
                         key='/'
-                        path='/'
+                        exact path='/'
                         render={props => <div>{this.makeRouterSection(i)}</div>} />
                 );
             } else {
                 routes.push(
                     <Route 
                         key={'/' + allTopicFiles[i]} 
-                        path={'/' + allTopicFiles[i]} 
+                        exact path={'/' + allTopicFiles[i]} 
                         render={props => <div>{this.makeRouterSection(i)}</div>} />
                 );
             }
@@ -290,9 +310,14 @@ class AppMain extends React.Component {
 }
 
 function App() {
+    let possiblePaths = '';
+    for (let i = 1; i < allTopicFiles.length; i++) {
+        possiblePaths += '|' + allTopicFiles[i];
+    }
+    possiblePaths = '/(' + possiblePaths + ')'
     return (
         <Router>
-            <Route path='/' component={AppMain} />
+            <Route exact path={possiblePaths} component={AppMain} />
         </Router>
     );
 }
