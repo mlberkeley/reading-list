@@ -325,7 +325,7 @@ function App() {
     }
     possiblePaths = '(' + possiblePaths + ')'
     return (
-        <Router>
+        <Router basename="reading-list">
             <Route exact path={possiblePaths} component={AppMain} />
         </Router>
     );
