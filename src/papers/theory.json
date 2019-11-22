@@ -188,6 +188,14 @@
                         },
                         {
                             "type": "paper",
+                            "flavor": "RMSProp",
+                            "title": "RMSProp Slides",
+                            "authors": null,
+                            "link": "https://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf",
+                            "relevance": 1
+                        },
+                        {
+                            "type": "paper",
                             "flavor": "Adam",
                             "title": "Adam: A Method for Stochastic Optimization",
                             "authors": null,
@@ -196,11 +204,11 @@
                         },
                         {
                             "type": "paper",
-                            "flavor": "RMSProp",
-                            "title": "RMSProp Slides",
+                            "flavor": "RAdam",
+                            "title": "On the Variance of the Adaptive Learning Rate and Beyond",
                             "authors": null,
-                            "link": "https://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf",
-                            "relevance": 1
+                            "link": "https://arxiv.org/abs/1908.03265",
+                            "relevance": 2
                         },
                         {
                             "type": "paper",

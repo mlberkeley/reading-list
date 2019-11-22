@@ -80,6 +80,36 @@
         },
         {
             "type": "topic",
+            "name": "Hyperparameter Search",
+            "children": [
+                {
+                    "type": "paper",
+                    "flavor": "Hyperband",
+                    "title": "Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1603.06560",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "ASHA",
+                    "title": "Massively Parallel Hyperparameter Tuning",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1810.05934",
+                    "relevance": 3
+                },
+                {
+                    "type": "paper",
+                    "flavor": "PBT",
+                    "title": "Population Based Training of Neural Networks",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1711.09846",
+                    "relevance": 2
+                }
+            ]
+        },
+        {
+            "type": "topic",
             "name": "Quantization",
             "children": [
                 {

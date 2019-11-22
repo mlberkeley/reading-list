@@ -51,6 +51,14 @@
                     "authors": null,
                     "link": "https://arxiv.org/abs/1707.07012",
                     "relevance": 2
+                },
+                {
+                    "type": "paper",
+                    "flavor": "MobileNet-v3",
+                    "title": "Searching for MobileNetV3",
+                    "authors": null,
+                    "link": "https://arxiv.org/abs/1905.02244",
+                    "relevance": 2
                 }
             ]
         },
